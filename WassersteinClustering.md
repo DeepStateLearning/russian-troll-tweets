@@ -10,18 +10,9 @@ Then, I used MDS to project the resulting metric into both 3d and 2d.  The pictu
  
  The metric data is saved in metric.csv, with these accounts listed in angular order determined by 2d MDS plot.  
  
- These are color coded according to the labels that were previously given: 
- 
-LABEL_COLOR_MAP = {'RightTroll' : 'r',
-                   'LeftTroll' : 'b',
-                   'HashtagGamer' : 'c',
-                   'Unknown' : 'g', 
-                   'NonEnglish' : 'y',
-                   'Fearmonger' : 'k',
-                   'NewsFeed' : 'm',
-                   }
+ These are color coded according to the labels that were previously given: 'RightTroll' is red, 'LeftTroll' is blue, 'HashtagGamer' is cyan,'Unknown' is green, 'NonEnglish' is yellow ,  'Fearmonger' is black, and 'NewsFeed' is magenta. 
 
-This is a 3d image
+This is a view of the 3d image
 
 ![Image of 3d metric](https://github.com/DeepStateLearning/russian-troll-tweets/blob/master/3dfull1.png)
 
