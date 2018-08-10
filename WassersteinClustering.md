@@ -5,7 +5,7 @@ I gathered the most retweeted 3000 tweets.
 I created a similiarity metric on these, with stronger affinity between two tweets indicating that if a user had retweeted one, the user was more likely to retweet the other.   
 Based on this, I created a distance metric on the tweets.  
 
-For users, I selected the subset of users that had retweeted at least 5 of the most common tweets.  There were 1346 or these. I chose a random sample of 800.   For each user, I created a probability vector on the space of tweets space, and then computed the Wasserstein distance based on the metric determined on the tweets.  
+For users, I selected the subset of users that had retweeted at least 5 of the most common tweets.  There were 1346 or these. I chose a random sample of 800.   For each user, I created a probability vector on the space of tweets space based on which tweets they had retweeted, and then computed the Wasserstein distance based on the metric determined on the tweets.  
 Then, I used MDS to project the resulting metric into both 3d and 2d.  The pictures are slightly different, but the main clusters are clearly visible.  
  
  The metric data is saved in metric.csv, with these accounts listed in angular order determined by 2d MDS plot.  
